@@ -1043,6 +1043,43 @@ button, input[type=button], input[type=submit] {
     top: -4px;
     position: relative;
 }
+#irfinal {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-color: #bc04ff;
+    text-indent: -9999px;
+    display: none;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+#irfinal span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: -12px;
+    height: 0;
+    width: 0;
+    border: 8px solid transparent;
+    border-bottom-color: #fff;
+}
+#irfinal:hover {
+    background-color: #16384f;
+    opacity: 1;
+    filter: "alpha(opacity=100)";
+    -ms-filter: "alpha(opacity=100)"}
+.homesldframe {
+    height: 350px;
+    width: 250px;
+    left: -12px;
+    top: -4px;
+    position: relative;
+}
 a.BJinfoBox {
     position: relative;
     display: inline;
