@@ -47,7 +47,7 @@ p {
     margin: 10px 5px;
 }
 li {
-    margin: 5px 11px;
+    margin: 9px 11px;
 }
 input {
     padding: 2px 3px;
@@ -490,7 +490,7 @@ p.min_padding {
     width: 255px;
 }
 .sidebar img {
-    max-width: 90%;
+    max-width: 95%;
     max-height: 100%;
     border-radius: 0px 0px 20px 20px;
   
@@ -929,7 +929,7 @@ button, input[type=button], input[type=submit] {
     border-right-color: #2F2A4D;
     cursor: pointer;
      /*background: url(https://media2.giphy.com/media/pOhqA8rf4IwuDoM0QI/200w.webp?cid=ecf05e47uxncv4oo84zxx2emyo53bfjo02tknjyjzobbf9fh&ep=v1_gifs_search&rid=200w.webp&ct=g);*/
-    background: url(https://media4.giphy.com/media/ftYbYxLSsBgkcqN8OE/giphy.webp?cid=ecf05e47ob3oqn6vmxklsfvra3p8xinkpza6ukwadn11qs28&ep=v1_gifs_search&rid=giphy.webp&ct=g);
+     /*background: url(https://media4.giphy.com/media/ftYbYxLSsBgkcqN8OE/giphy.webp?cid=ecf05e47ob3oqn6vmxklsfvra3p8xinkpza6ukwadn11qs28&ep=v1_gifs_search&rid=giphy.webp&ct=g);*/
     background-color: rgba(0, 0, 0, .2);
     background-repeat: space;
     text-align: center;
