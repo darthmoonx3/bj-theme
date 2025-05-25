@@ -232,20 +232,20 @@ ul.thin li {
 }
 
 #userinfo_minor #nav_donations a {
-    /*barra progresso*/
-  --progress: 95;
-  position: relative;
-  left: 420px;
-  top: -12px;
-  height: 2px;
-  margin: auto;
-  padding: 5px;
-  /text-align: right;
-  border-radius: 10px;
-  background-color: #1d1d1d;
-  
-  display: grid;
-  width: 200px  
+    --progress: 78.531; /* Porcentagem atual das doações */
+    position: relative;
+    /* REMOVIDO: left: 420px; ← ERA ISSO QUE ESTAVA CAUSANDO O PROBLEMA */
+    left: auto;
+    right: 10px;
+    top: -12px;
+    height: 4px; /* Aumentei um pouco para ficar mais visível */
+    margin: 0 10px;
+    padding: 0;
+    border-radius: 10px;
+    background-color: #1d1d1d;
+    display: inline-block; /* MUDEI de grid para inline-block */
+    width: 120px; /* REDUZI de 200px para 120px */
+    vertical-align: middle; /* ADICIONEI: alinha com o texto */
 }
 
 #userinfo_minor #nav_donations a::before {
