@@ -1009,13 +1009,13 @@ button, input[type=button], input[type=submit] {
 #irtopo {
     position: fixed;
     right: 10px;
-    bottom: 10px;
+    bottom: 60px; /* Movido para cima para dar espaço */
     cursor: pointer;
     width: 40px;
     height: 40px;
     background-color: #bc04ff;
     text-indent: -9999px;
-    display: none;
+    display: none; /* Será mostrado via JavaScript do tema */
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
@@ -1029,30 +1029,24 @@ button, input[type=button], input[type=submit] {
     height: 0;
     width: 0;
     border: 8px solid transparent;
-    border-bottom-color: #fff;
+    border-bottom-color: #fff; /* Seta para cima */
 }
 #irtopo:hover {
     background-color: #16384f;
     opacity: 1;
     filter: "alpha(opacity=100)";
-    -ms-filter: "alpha(opacity=100)"}
-.homesldframe {
-    height: 350px;
-    width: 250px;
-    left: -12px;
-    top: -4px;
-    position: relative;
+    -ms-filter: "alpha(opacity=100)";
 }
 #irfinal {
     position: fixed;
     right: 10px;
-    bottom: 10px;
+    bottom: 10px; /* Fica embaixo */
     cursor: pointer;
     width: 40px;
     height: 40px;
     background-color: #bc04ff;
     text-indent: -9999px;
-    display: none;
+    display: block; /* Sempre visível - mudança aqui! */
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
@@ -1062,23 +1056,17 @@ button, input[type=button], input[type=submit] {
     top: 50%;
     left: 50%;
     margin-left: -8px;
-    margin-top: -12px;
+    margin-top: -4px; /* Ajuste para seta para baixo */
     height: 0;
     width: 0;
     border: 8px solid transparent;
-    border-bottom-color: #fff;
+    border-top-color: #fff; /* Seta para baixo */
 }
 #irfinal:hover {
     background-color: #16384f;
     opacity: 1;
     filter: "alpha(opacity=100)";
-    -ms-filter: "alpha(opacity=100)"}
-.homesldframe {
-    height: 350px;
-    width: 250px;
-    left: -12px;
-    top: -4px;
-    position: relative;
+    -ms-filter: "alpha(opacity=100)";
 }
 a.BJinfoBox {
     position: relative;
