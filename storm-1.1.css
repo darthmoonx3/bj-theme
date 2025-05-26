@@ -215,6 +215,7 @@ ul.thin li {
     min-width: 850px;
     position: relative;
     top: 35px;
+    margin-left: 100px;
 }
 #userinfo ul {
     display: inline;
