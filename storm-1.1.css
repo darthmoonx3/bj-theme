@@ -481,6 +481,9 @@ p.min_padding {
     border: 1px solid #303030;
     margin-bottom: 10px;
 }
+.box_tags ul {
+    padding-left: 9px;
+}
 .pad h3, .pad h4, .padbox h3, .padbox h4 {
     margin-top: 0;
     padding-top: 0;
