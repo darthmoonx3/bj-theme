@@ -1343,8 +1343,3 @@ cursor: help;
     border: 1px solid #533483;
     border-radius: 8px;
 }
-
-*[style*="background: white"], *[style*="background-color: white"] {
-    background: linear-gradient(90deg, #0C0C0C 46.92%, #23262F 111.05%);
-    color: #ffffff;
-}
