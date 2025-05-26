@@ -55,7 +55,7 @@ input {
 }
 textarea {
     padding: 2px 3px;
-    color: #ffffff;
+    color: #ffffff !important;
 }
 img {
     border-radius: 10px;
