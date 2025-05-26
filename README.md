@@ -1,1 +1,1 @@
-CSS originalmente criado por skaralysk
+CSS originalmente criado por skaralysk.
