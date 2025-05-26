@@ -1337,9 +1337,3 @@ cursor: help;
 #chatForm, form[name="chatForm"] {
     background: linear-gradient(115deg, #0E0E12 62.12%, #151531 98.33%);
 }
-.tooltip, .popup, .qtip {
-    background: linear-gradient(90deg, #0C0C0C 46.92%, #23262F 111.05%);
-    color: #ffffff;
-    border: 1px solid #533483;
-    border-radius: 8px;
-}
