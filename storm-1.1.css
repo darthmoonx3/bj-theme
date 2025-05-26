@@ -1327,4 +1327,5 @@ cursor: help;
 }
 .u-bbcodeEditor .u-bbcodeTextarea {
     background: linear-gradient(115deg, #0E0E12 62.12%, #2e2e3b 98.33%);
+    color: #ffffff;
 }
