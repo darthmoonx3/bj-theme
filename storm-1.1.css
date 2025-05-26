@@ -1329,9 +1329,10 @@ cursor: help;
     background: linear-gradient(90deg, #0C0C0C 46.92%, #23262F 111.05%);
     color: #ffffff;
 }
-.txtChat, input[name="chatText"] {
-    background: linear-gradient(90deg, #2f2d2d 46.92%, #23262F 111.05%);
-    width: 80%;
-.chatForm, form[name="chatForm"] {
-    color: #ffffff
+#txtChat, input[name="chatbarText"] {
+    background: linear-gradient(90deg, #0C0C0C 46.92%, #23262F 111.05%);
+    color: #ffffff;
+}
+#chatForm, form[name="chatForm"] {
+    background: linear-gradient(115deg, #0E0E12 62.12%, #151531 98.33%) !important;
 }
