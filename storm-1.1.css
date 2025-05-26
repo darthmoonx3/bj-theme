@@ -1337,6 +1337,9 @@ cursor: help;
 #chatForm, form[name="chatForm"] {
     background: linear-gradient(115deg, #0E0E12 62.12%, #151531 98.33%);
 }
-#noty_bottomRight_layout_container li {
-    width: 208px;
+ul#noty_bottomRight_layout_container li[style*="background"] {
+    background: linear-gradient(90deg, #0C0C0C 46.92%, #23262F 111.05%) !important;
+    border: 1px solid #533483 !important;
+    color: #ffffff !important;
+    width: 208px !important;
 }
