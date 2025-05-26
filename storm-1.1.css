@@ -1344,9 +1344,9 @@ ul#noty_bottomRight_layout_container li[style*="background"] {
     width: 208px !important;
     right: -30px;
 }
-.noty_buttons {
+div.noty_buttons[style*="background-color: rgb(255, 255, 255)"] {
+    background-color: rgb(85, 85, 85) !important;
+    border-top: 1px solid rgb(102, 102, 102) !important;
     padding: 5px;
     text-align: center;
-    border-top: 1px solid rgb(102, 102, 102);
-    background-color: rgb(85, 85, 85);
 }
