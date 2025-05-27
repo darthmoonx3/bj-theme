@@ -58,6 +58,7 @@ input, textarea {
 }
 textarea {
     padding: 2px 3px;
+    background: linear-gradient(90deg, #0C0C0C 46.92%, #23262F 111.05%);
 }
 img {
     border-radius: 10px;
