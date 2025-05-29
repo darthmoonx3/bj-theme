@@ -1350,7 +1350,7 @@ ul#noty_bottomRight_layout_container li[style*="background"] {
     right: 60px !important;
 }
 ul#noty_bottomRight_layout_container.i-am-new {
-    right: -30px !important;
+    right: 60px !important;
 }
 div.noty_buttons[style*="background-color: rgb(255, 255, 255)"] {
     background-color: rgb(85, 85, 85) !important;
