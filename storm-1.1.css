@@ -1347,7 +1347,7 @@ ul#noty_bottomRight_layout_container li[style*="background"] {
     border: 1px solid #533483 !important;
     color: #ffffff !important;
     width: 300px !important;
-    right: -20px !important;
+    right: 60px !important;
 }
 ul#noty_bottomRight_layout_container.i-am-new {
     right: -30px !important;
