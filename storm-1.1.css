@@ -1354,3 +1354,6 @@ div.noty_buttons[style*="background-color: rgb(255, 255, 255)"] {
     padding: 5px;
     text-align: center !important;
 }
+ul {
+left: 0px;
+}
