@@ -1445,3 +1445,15 @@ td span.internalbox::before {
     height: auto !important;
     text-indent: 0 !important;
 }
+
+/* Cor do nome da release na página de torrents */
+#torrent_details strong.torrentinfo_release,
+#torrent_details .torrentinfo_release,
+#torrent_details a .torrentinfo_release,
+#torrent_details a:link .torrentinfo_release,
+#torrent_details a:visited .torrentinfo_release,
+#torrent_details a:hover .torrentinfo_release,
+#torrent_details a:active .torrentinfo_release,
+tr.torrent_row strong.torrentinfo_release {
+    color: #DDC39F !important;
+}
