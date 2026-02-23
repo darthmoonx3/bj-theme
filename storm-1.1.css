@@ -1374,3 +1374,32 @@ div.noty_buttons[style*="background-color: rgb(255, 255, 255)"] {
 ul {
 left: 0px;
 }
+/* Override final do badge INTERNAL (home) */
+tr.torrent td span.internalbox,
+tr.torrent.row td span.internalbox,
+td span.internalbox {
+    background: #272a2d !important;
+    color: #ffb300 !important;
+    border-left: 3px solid #ffb300 !important;
+    border-right: 3px solid #ffb300 !important;
+    border-radius: 4px !important;
+    padding: 1px 4px !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    float: none !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    line-height: 1.1 !important;
+}
+
+tr.torrent td span.internalbox::before,
+tr.torrent.row td span.internalbox::before,
+td span.internalbox::before {
+    content: "🛡" !important;
+    font-family: "Segoe UI Emoji", "Apple Color Emoji", sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 11px !important;
+    color: #fffbee !important;
+    margin-right: 3px !important;
+    text-indent: 0 !important;
+}
