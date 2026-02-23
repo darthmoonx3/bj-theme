@@ -1297,13 +1297,30 @@ p.bjqs-caption {
   width: 47%
 }
 .internalbox {
-background: #2f4879 none repeat scroll 0 0;
-font-size: 11px;
-font-weight: bold;
-padding: 0px 5px;
-color:#fff;
-float: none !important;
-cursor: help;
+    background: #272a2d !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    padding: 1px 4px !important;
+    color: #ffb300 !important;
+    border-left: 3px solid #ffb300 !important;
+    border-right: 3px solid #ffb300 !important;
+    border-radius: 4px !important;
+    float: none !important;
+    cursor: help;
+    display: inline-flex !important;
+    align-items: center !important;
+    line-height: 1.1 !important;
+}
+
+tr.torrent td .internalbox::before,
+tr.torrent.row td .internalbox::before {
+    content: "\f3ed";
+    font-family: "Font Awesome 5 Free", "Font Awesome 5 Pro", "Segoe UI Emoji" !important;
+    font-weight: 900 !important;
+    font-size: 10px !important;
+    color: #fffbee !important;
+    margin-right: 3px !important;
+    text-indent: 0 !important;
 }
 #noteAlertMsg {
     position: absolute;
