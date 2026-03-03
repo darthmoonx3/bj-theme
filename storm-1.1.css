@@ -1446,7 +1446,14 @@ td span.internalbox::before {
     text-indent: 0 !important;
 }
 
-/* Cor do nome da release na página de torrents */
+/* Cor do nome da release na home e na página de torrents */
+#index table.torrent_table tr.torrent.row td.big_info .group_info strong.torrentinfo_release,
+#index table.torrent_table tr.torrent.row td.big_info .group_info .torrentinfo_release,
+#index table.torrent_table tr.torrent.row td.big_info .group_info a .torrentinfo_release,
+#index table.torrent_table tr.torrent.row td.big_info .group_info a:link .torrentinfo_release,
+#index table.torrent_table tr.torrent.row td.big_info .group_info a:visited .torrentinfo_release,
+#index table.torrent_table tr.torrent.row td.big_info .group_info a:hover .torrentinfo_release,
+#index table.torrent_table tr.torrent.row td.big_info .group_info a:active .torrentinfo_release,
 #torrent_details strong.torrentinfo_release,
 #torrent_details .torrentinfo_release,
 #torrent_details a .torrentinfo_release,
@@ -1454,7 +1461,10 @@ td span.internalbox::before {
 #torrent_details a:visited .torrentinfo_release,
 #torrent_details a:hover .torrentinfo_release,
 #torrent_details a:active .torrentinfo_release,
-tr.torrent_row strong.torrentinfo_release {
+tr.torrent_row strong.torrentinfo_release,
+tr.torrent.row td.big_info .group_info strong.torrentinfo_release,
+tr.torrent.row td.big_info .group_info .torrentinfo_release,
+tr.torrent.row td.big_info .group_info a .torrentinfo_release {
     color: #DDC39F !important;
 }
 /* Ocultar tags na home (lista de torrents da home) */
